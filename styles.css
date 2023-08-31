@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+header {
+    display: inline;
+    
+}
+ 
+.topo {
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 21px;
+    width: 79px;
+    color: #17233D;
+    margin-left: 21px;
+    cursor: pointer;
+}
+
+button {
+    width: 124px;
+    height: 51px;
+    left: 420px;
+    margin: 51px;
+    color: #ffffff;
+    background: #6FBF44;
+    border-radius: 10px;
+    border: none;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.logo-image {
+    width: 534px;
+    height: 467px;
+    margin: 60px 0px 0px 100px;
+    display: inline-block;
+}
+
+section{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+h1 {
+    font-weight: 700px;
+    font-size: 62px;
+    line-height: 82px;
+    width: 582px;
+    height: 164px;
+    color: #161A49;
+}
+
+p {
+    color: #4B505A;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 33px;
+    width: 493px;
+    height: 99px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    
+}
+
+#button {
+    color: #6FBF44;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 27px;
+    cursor: pointer;
+    width: 112px;
+    height: 27;
+}
+
+@media screen and (max-width: 700px) {
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .topo {
+        display: none;
+    }
+     
+    button {
+        margin-left: 517px;
+        margin-top: 23px;
+        width: 148px;
+        font-size: 20px;
+    }
+    
+    
+    img {
+        position: relative;
+        top: 800px;
+    }
+
+    section {
+        position: relative;
+        bottom: 457px;
+        text-align: center;
+        width: 550px;
+        height: 650px;
+    }
+
+    h1 {
+        font-size: 75px;
+        line-height: 70px;
+        position: relative;
+        right: 40px;
+    }
+
+    p {
+        width: auto;
+        font-size: 36px;
+        line-height: 90px;
+    }
+
+    #button {
+        display: block;
+        margin-top: 411px;
+        margin-left: 190px;
+        width: 185px;
+        height: 101px;
+        font-size: 32px;
+    }
+} 
