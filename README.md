@@ -7,4 +7,4 @@
  <h3>- CSS</h3>
  <br>
  <img src="https://github.com/Rodrdias/projeto-2/blob/master/Captura%20de%20Tela%20(6).png?raw=true"/>
-<img src"
+<img src="https://github.com/Rodrdias/projeto-2/blob/master/Captura%20de%20Tela%20(12).png?raw=true"/>
